@@ -19,10 +19,6 @@ from tqdm import tqdm, trange
 import torch.nn.functional as F
 import csv
 
-# Commented out IPython magic to ensure Python compatibility.
-# %cd "/content/drive/MyDrive/Textgen"
-
-import pandas as pd
 news = pd.read_csv('/content/drive/MyDrive/Textgen/news_uk.csv')
 news.head()
 
