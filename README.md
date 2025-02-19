@@ -47,13 +47,18 @@ print(generated_text)
 ## 📊 Evaluation
 
 ROUGE and BLEU scores are computed using:
-
+```python
 from evaluate import evaluate_model
 scores = evaluate_model(generated_text, reference_text)
 print(scores)
-
+```
 Model Checkpoints
 
-Model weights are saved per epoch as news-{epoch}.pt in the output directory.
+Model weights are saved per epoch as 
+```python
+news-{epoch}.pt 
+```
+inside  the output directory.
+
 
 
