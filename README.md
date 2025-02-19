@@ -5,12 +5,12 @@
 This project fine-tunes OpenAI's GPT-2 model for text generation using a dataset of news descriptions. The model is trained to generate text based on a given seed, with evaluations performed using ROUGE and BLEU scores.
 
 ## Table of content
-* [Features]Features
-* [Installation]Installation
-* [Dataset]Dataset
-* [Training]Training the Model
-* [Evaluation]Evaluation
-* [ModelCheckpoints]Model Checkpoints
+* [Features](Features)
+* [Installation](Installation)
+* [Dataset](Dataset)
+* [Training the model](Training the Model)
+* [Evaluation](Evaluation)
+* [ModelCheckpoints](Model Checkpoints)
 
 ## ✨Features
 ✔️ Data preprocessing using a custom PyTorch Dataset class
@@ -56,11 +56,4 @@ Model Checkpoints
 
 Model weights are saved per epoch as news-{epoch}.pt in the output directory.
 
-Contributors
-
-[Your Name]
-
-License
-
-This project is licensed under the MIT License.
 
